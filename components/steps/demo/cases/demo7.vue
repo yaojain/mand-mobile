@@ -3,14 +3,15 @@
     <md-steps
       direction="vertical"
       :steps="steps"
-      :current="1"
+      :current="10"
       vertical-adaptive
     >
     </md-steps>
   </div>
 </template>
 
-<script>import {Steps} from 'mand-mobile'
+<script>
+import {Steps} from 'mand-mobile'
 
 export default {
   name: 'steps-demo',
@@ -45,7 +46,8 @@ export default {
     }
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .md-example-child-steps-7 .md-steps
